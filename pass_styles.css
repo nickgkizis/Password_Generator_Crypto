@@ -1,0 +1,103 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Options section */
+.options {
+    margin: 10px 0;
+}
+
+.options label {
+    display: inline-block;
+    margin-right: 15px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+/* Password Output and Buttons */
+button {
+    width: 30%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Explanation box for pseudo-random vs. crypto-random */
+.explanation-box {
+    background-color: #e9f7fe;
+    border: 1px solid #c0e1f7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.explanation-box h2 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+.explanation-box p {
+    font-size: 1.3em;
+    line-height: 1.6;
+}
+
+.explanation-box ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.explanation-box ul li {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+#passwordOutput {
+    margin-top: 20px;
+    font-size: 2.3rem;
+    color: #444;
+    padding: 10px;
+    background-color: rgb(197, 197, 197);
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
